@@ -14,10 +14,12 @@
         /// <summary>
         /// A * B = B * A
         /// A * (B * C) = (A * B) * C = (A * C) * B
-        /// EXPLAINATION Start: Each time we multiply prod with array values and add to prodHolder we are multiplying all numbers execpt for 1 value needed for program solution
-        /// As we move through the array multiplying all elements together, one way we get closer to finding the product of the final index
+        /// EXPLAINATION Start: 
+        /// Each time we multiply prod with array values and add to prodHolder we are multiplying all numbers execpt for 1 value needed for program solution
+        /// As we move through the array multiplying all elements together, and setting index elements in prodHolder, we get closer to finding the product of the final index
         /// We then pass back through in reverse to find the remaining products for each index
-        /// EXPLAINATION End: Then we multiply the intial products with the remaining products and get our result
+        /// Then we multiply the intial products in prodHolder with the remaining products from the reverse to get our final results
+        /// EXPLAINATION End: 
         /// The main trick for this problem is to multiply the ends of the array by 1.
         /// We want to create an array to hold our individual products (prodHolder)
         /// We want to set a variable to 1 and use it to hold our products (prod)
