@@ -26,6 +26,7 @@
         /// Initially loop through the original array.
         /// Each iteration we will set the current index of "prodHolder" to "prod" (our current calculated product)
         /// Then set "prod" to our current "prod" value times current index element of the current array(prod * arr[i])
+        /// First loop end
         /// Set "prod" to 1 again
         /// Loop the length of the array again, this time in reverse
         /// set current index(prodHolder[i]) equal to "prod" * prodHolder[i](current index element)
