@@ -12,6 +12,8 @@
         }
 
         /// <summary>
+        /// A * B = B * A
+        /// A * (B * C) = (A * B) * C = (A * C) * B
         /// The main trick for this problem is to multiply the ends of the array by 1.
         /// We want to create an array to hold our individual products (prodHolder)
         /// We want to set a variable to 1 and use it to hold our products (prod)
